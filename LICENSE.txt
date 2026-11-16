@@ -1,0 +1,19 @@
+VoicePrompt
+Copyright (c) 2026 VoicePrompt contributors. All rights reserved.
+
+The official, unmodified VoicePrompt application binaries may be used free of
+charge for personal and workplace use. No subscription or API purchase is
+required by VoicePrompt.
+
+This public repository distributes user documentation and application releases.
+It does not grant an open-source license to VoicePrompt's application source,
+branding, or other original materials. Other rights are reserved unless the
+copyright holder grants separate permission.
+
+The application is provided as is, without warranties, including warranties of
+accuracy, uninterrupted operation, or suitability for a particular purpose, to
+the extent permitted by applicable law. Verify transcribed text before use.
+
+Third-party software and models remain governed by their respective licenses.
+Nothing in this notice restricts rights granted under those licenses. See
+docs/THIRD_PARTY_NOTICES.md and the licenses directory.
