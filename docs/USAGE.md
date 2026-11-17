@@ -8,13 +8,13 @@ GitHub의 `Source code` 다운로드에는 앱이 없습니다.
 macOS:
 
 ```sh
-shasum -a 256 VoicePrompt-0.4.1-macos-arm64.zip
+shasum -a 256 VoicePrompt-0.4.2-macos-arm64.zip
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\VoicePrompt-0.5.0-preview.1-windows-x64.zip -Algorithm SHA256
+Get-FileHash .\VoicePrompt-0.5.0-preview.2-windows-x64.zip -Algorithm SHA256
 ```
 
 출력이 `SHA256SUMS.txt`의 해당 파일과 일치하는지 확인합니다. 해시는 파일 변조·손상을 확인하는 수단이며 게시자 서명을 대체하지 않습니다.
@@ -60,6 +60,15 @@ Get-FileHash .\VoicePrompt-0.5.0-preview.1-windows-x64.zip -Algorithm SHA256
 관리자 권한으로 실행된 앱, 일부 터미널·게임·원격 데스크톱·접근성 정보를 제공하지 않는 입력창은 지원되지 않을 수 있습니다.
 결과 복사를 사용하세요. 자동 입력 요청이 성공해도 대상 앱이 실제로 받았는지는 확인해야 합니다.
 부분 입력 중 중단되었다면 기존 입력을 확인한 뒤 중복되지 않게 붙여넣으세요.
+
+## 영어 개발 용어가 한글로 적힐 때
+
+Mac 0.4.2 / Windows 0.5.0-preview.2부터 음성 언어를 자동 감지하고 원어로 전사합니다.
+설정의 **LLM 용어 보정**을 켜면 `리듬위/리드미 → README`, `깃허브 → GitHub`,
+`에이피아이 → API` 등 알려진 개발 용어의 한글 음차를 영어 표기로 보정합니다.
+일반 한국어 문장 전체를 영어로 바꾸지는 않습니다. `readme.md` 같은 실제 파일명, URL과 코드는 보존합니다.
+보정 기능을 끄면 용어 힌트와 표기 보정이 꺼지며 음성 언어 자동 감지는 계속 적용됩니다.
+짧은 발화·혼합 언어·등록되지 않은 고유 명사는 오인식이 남을 수 있습니다.
 
 ## 업데이트와 제거
 

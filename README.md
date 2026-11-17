@@ -11,13 +11,13 @@
 - 말하는 동안 인식 중인 문장을 미리 보여 줍니다. 속도는 기기와 모델에 따라 달라집니다.
 - 시작할 때의 입력 대상을 확인한 뒤 글을 입력합니다. 자동 입력이 불가능하면 결과를 복사할 수 있습니다.
 - Enter를 누르거나 메시지를 전송하지 않습니다. 전송 전 내용을 직접 확인하세요.
-- Qwen·Ollama 등 개발 용어에 인식 힌트를 주고 일부 표기를 보정합니다. 설정에서 끌 수 있습니다.
+- 음성 언어를 자동 감지해 원어로 전사합니다. README·GitHub·API·Qwen 같은 개발 용어는 영어 표기를 보정하며 설정에서 끌 수 있습니다.
 
 ## 지원 범위
 
 | | macOS | Windows |
 |---|---|---|
-| 배포 버전 | 0.4.1 | 0.5.0-preview.1 |
+| 배포 버전 | 0.4.2 | 0.5.0-preview.2 |
 | 대상 | Apple Silicon, macOS 14 이상 | Windows 11 x64, AVX2·FMA·F16C 지원 CPU |
 | 인식 엔진 | WhisperKit 1.1.1 / Core ML | Whisper.net 1.9.1 / whisper.cpp CPU |
 | 모델 | Whisper large-v3 turbo | Whisper small 다국어 |
